@@ -1,0 +1,1 @@
+* 女帝 Advent Calendar 2012 http://atnd.org/events/34298 でつくった Google Chrome Extension。スタートアップ・ビギナーの諸君：先ず、『女帝』奥田浩美を攻略せよ http://thestartup.jp/?p=3176 を書き換えます。

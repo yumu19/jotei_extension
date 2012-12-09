@@ -1,0 +1,21 @@
+{
+	"name": "『女帝』yamashitamを攻略せよ",
+	"description": "女帝 Advent Calendar 2012 でつくった Google Chrome Extension。スタートアップ・ビギナーの諸君：先ず、『女帝』奥田浩美を攻略せよ http://thestartup.jp/?p=3176 を書き換えます。",
+	"version": "1.0",
+	"icons": {
+		"16":"yamashitam16.png",
+		"48":"yamashitam48.png",
+		"128":"yamashitam128.png"
+    },
+	"manifest_version": 2,
+    "permissions": [
+      "tabs", "http://thestartup.jp/?p=3176"
+    ],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "yamashitam48.png",
+		"default_title": "女帝Extension"
+	}
+}
