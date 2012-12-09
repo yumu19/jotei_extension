@@ -1,0 +1,21 @@
+{
+	"name": "女帝Extension",
+	"description": "女帝専用 Google Chrome Extension",
+	"version": "1.0",
+	"icons": {
+		"16":"yamashitam16.png",
+		"48":"yamashitam48.png",
+		"128":"yamashitam128.png"
+    },
+	"manifest_version": 2,
+    "permissions": [
+      "tabs", "http://*/*"
+    ],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "yamashitam48.png",
+		"default_title": "女帝Extension"
+	}
+}
