@@ -32,7 +32,7 @@ function jotei() {
     replace.push("document.body.innerHTML=document.body.innerHTML.replace('http://lab-nfc.com','http://wakate.org')");
     replace.push("document.body.innerHTML=document.body.innerHTML.replace('http://startupdigest.com/curator/hiromi-okuda/','http://d.hatena.ne.jp/yamashi_tam/20110629/p1')");
 
-    replace.push("document.getElementsByTagName(\"img\")[1].src=\"https://secure.gravatar.com/avatar/ef6112269f73d3f9100853e23746b443?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png\"");
+    replace.push("document.getElementsByTagName(\"img\")[1].src=\"http://www.gravatar.com/avatar/ef6112269f73d3f9100853e23746b443?s=400\"");
     replace.push("document.getElementsByTagName(\"img\")[2].src=\"http://twitpic.com/show/large/an2kct.jpg\"");
     replace.push("document.getElementsByTagName(\"img\")[3].src=\"http://twitpic.com/show/large/an2jvr.jpg\"");
 
